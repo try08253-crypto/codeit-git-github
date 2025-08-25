@@ -44,3 +44,11 @@
 - git branch
 - git branch [브랜치이름]
 - git config --global init.defaultBranch [기본브랜치이름]
+- git checkout [브랜치이름]
+
+8. 브랜치를 병합해보자.
+- 케이스1: 3-way-merge
+  - 나는 1, 2, 3, 4, 5, 6
+  - 친구는 1, 2, 3, 4, 5, 7, 8
+  - main 브랜치에서 git merge sub 명령어를 실행
+  - base인 5를 기준으로 sub 브랜치의 7, 8 만큼의
